@@ -1,5 +1,8 @@
-import pokemon as pk, os
-import PySimpleGUI as sg
+import pokemon as pk, os, PySimpleGUI as sg
+try:
+    import pyttsx3
+except:
+    os.system('pip install pyttsx3')
 import pyttsx3 as tts
 
 #code
