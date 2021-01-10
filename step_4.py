@@ -1,7 +1,7 @@
 import time, pandas as pd, numpy as np  #importing necessary libraries
 timestamp,subset_elements, all_elements=[],[],[] #global variables
 def readNumList():
-    '''Reads the files subset_elements.txt and all_elements.txt, which contains the subset elements which are to be found in all elements list respectively.
+    '''Reads the files subset_elements.txt and all_elements.txt, which contains the subset elements and all elements respectively
     
     Parameters:
         None
@@ -30,7 +30,7 @@ def getCommonNum(a,b):
         b (list): Second list of elements
         
     Returns:
-        int: Returns number of elements common to a and b'''
+        int: number of elements common to a and b'''
     return len(set(a) & set(b))  #uses & operator on sets to get a new set containing common element
 if __name__ == "__main__":
     #main
