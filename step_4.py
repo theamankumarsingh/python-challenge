@@ -1,8 +1,7 @@
 import time, pandas as pd, numpy as np  #importing necessary libraries
 timestamp,subset_elements, all_elements=[],[],[] #global variables
 def readNumList():
-    '''Reads the files subset_elements.txt and all_elements.txt, which contains
-    the subset elements who are to be found in all elements.
+    '''Reads the files subset_elements.txt and all_elements.txt, which contains the subset elements which are to be found in all elements list respectively.
     
     Parameters:
         None
